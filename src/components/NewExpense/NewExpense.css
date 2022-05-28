@@ -1,0 +1,54 @@
+.new-expense {
+    background-color: #ff8e3c;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.new-expense__button {
+    cursor: pointer;
+    font: inherit;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 12px;
+    margin-right: 1rem;
+    border-color: #f1c40f;
+    color: white;
+    font-weight: 700;
+    background-color: #2a2a2a;
+    background-image: -webkit-linear-gradient(45deg, #4BB543 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #4BB543 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+
+.cancelbtn {
+    background-image: -webkit-linear-gradient(45deg, #B22222 50%, transparent 50%);
+        background-image: linear-gradient(45deg, #B22222 50%, transparent 50%);
+}
+
+.openbtn {
+    background-image: -webkit-linear-gradient(45deg, #D3D3D3 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #D3D3D3 50%, transparent 50%);
+}
+
+.new-expense__button:hover {
+    background-position: 0;
+}
+
+    /* .new-expense button.alternative {
+        color: #220131;
+        border-color: transparent;
+        background-color: transparent;
+    }
+
+    .new-expense button.alternative:hover,
+    .new-expense button.alternative:active {
+        background-color: #ddb3f8;
+    } */
